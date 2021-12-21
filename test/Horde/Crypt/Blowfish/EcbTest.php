@@ -10,7 +10,7 @@
  * @package    Crypt_Blowfish
  * @subpackage UnitTests
  */
-class Horde_Crypt_Blowfish_EcbTest extends Horde_Test_Case
+class Horde_Crypt_Blowfish_EcbTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider vectorProvider

@@ -23,7 +23,7 @@
  * @package    Crypt_Blowfish
  * @subpackage UnitTests
  */
-class Horde_Crypt_Blowfish_Pbkdf2Test extends Horde_Test_Case
+class Horde_Crypt_Blowfish_Pbkdf2Test extends \PHPUnit\Framework\TestCase
 {
     /**
      * Test vectors.
