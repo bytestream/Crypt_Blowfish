@@ -170,7 +170,7 @@ class Horde_Crypt_Blowfish
             break;
 
         case 'ecb':
-            $this->iv = false;
+            $this->_crypt->iv = false;
             break;
         }
     }
